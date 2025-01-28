@@ -1,0 +1,341 @@
+@import url(reset.css);
+@import url(global.css);
+
+body{
+    background-color: var(--primaryGray);
+    align-items: center;
+    color: var(--white);
+    font-family: var(--poppins);
+   
+    
+    
+}
+
+
+
+@media screen and (max-width: 375px){
+
+   body{
+      overflow-x: hidden;
+   }
+
+
+ header h1{
+    font-size: 24px ;
+    padding: 33px 0px 0px 20px;
+    max-width: 266px;
+    font-weight: var(--semiBold);
+    margin-bottom: 30%;
+ }
+
+ .mainPage{
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+    
+ }
+ .mainPage h2{
+    text-align: center;
+    font-size: 40px ;
+    max-width: 335px;
+    font-family: var(--poppins) ;
+    font-weight: var(--semiBold);
+    margin-bottom: 40px;
+    margin-left: 5%;
+ }
+
+ .mainPage p{
+    opacity: 40%;
+    font-size: 18px;
+    font-weight:var(--regular);
+    max-width:335px ;
+    text-align: center;
+    margin-bottom: 20%;
+    margin-left: 5%;
+ }
+
+ .mainPage a{
+   margin-left: 27%;
+   text-align: center;
+   color: var(--darkGray);
+   border: 1px solid var(--yellow);
+   background-color: var(--yellow);
+   font-size: 18px ;
+   font-weight: var(--regular);
+   border-radius: 15px;
+   width: 175px;
+   height: 50px;
+   padding: 9px 0px 9px 0px ;
+   margin-bottom: 5%;
+  
+}
+
+.mainPage a:hover{
+   transition-delay: 200ms;
+   transition-property:color,background-color,box-shadow;
+   background-color: rgb(253, 253, 148);
+   color: rgb(36, 35, 35);
+   box-shadow: 0.1px 1px 10px 
+   gray;
+}
+
+.mainPage img{
+
+   margin-bottom: 10%;
+
+}
+
+
+
+.graphic{
+   max-width: 380px;
+   max-height: 100%; 
+   border-bottom: 1px solid var(--white);
+   
+   
+   
+}
+
+.logo{
+   
+   width: 320px;
+   height: 79;
+   align-self: center;
+   margin-right: 3%;
+   border-bottom: 1px solid var(--white);
+   padding-bottom: 33px;
+}
+
+.mainPage div{
+   background-color: var(--purple) ;
+   border: 1px solid var(--purple);
+   width: 335px;
+   height: 180px;
+   border-radius: 5px;
+   align-self: center;
+   margin-bottom: 10%;
+}
+.secondPage{
+
+   display: flex;
+   flex-direction: column;
+   
+}
+.container{
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   align-items: center;
+   gap: 30px;
+   margin-bottom: 15%;
+}
+
+.web{
+   width: 61px ;
+   height:45px ;
+}
+
+.secondPage div h2{
+   font-size: 18px ;
+   font-weight:var(--semiBold) ;
+
+}
+
+.secondPage div p{
+   opacity: 40%;
+   max-width:211px ;
+   max-height: 96px ;
+   font-weight: var(--extraLight);
+   font-size: 18px;
+   
+
+}
+
+.coin{
+   max-width: 71px;
+   max-height: 70px;
+}
+
+.wallet{
+   max-width: 64px;
+   max-height: 70px;
+}
+
+.backgroundImage{
+   border: 1px solid var(--lightGreen);
+   background-color: var(--lightGreen);
+   width: 335px ;
+   height: 268px;
+   display: flex;
+   align-self: center;
+   border-radius: 13.4px;
+   margin-bottom: 25%;
+}
+.backgroundImage img{
+   width: 335px;
+   height: 268px;
+   
+
+}
+
+.thirdPage{
+   display: flex;
+   justify-content: center;
+   
+}
+
+.thirdPage div{
+   display: flex;
+   background-color: var(--yellow);
+   border-radius: 15px ;
+   width: 335px;
+   height: 765px;
+   justify-content: center;
+   flex-direction: column;
+   align-items: center;
+   font-family: var(--poppins);
+   text-align: center;
+}
+
+.thirdPage div img{
+   max-width: 66px;
+   max-height: 60px;
+   margin-bottom: 3%;
+
+}
+
+
+
+.paragraph{
+   max-width: 275px;
+   max-height: 224px;
+   font-size: 18px;
+   font-weight:var(--regular) ;
+   color: var(--primaryGray);
+   margin-bottom: 5%;
+}
+
+.writer{
+   color: var(--primaryGray);
+   font-size: 18px;
+   font-weight:var(--regular); 
+   opacity: 0.4;
+}
+
+.fourthPage{
+  
+   display: flex;
+   justify-content: center;
+   text-align: center;
+   flex-direction: column;
+   align-items: center;
+
+}
+
+.fourthPage h2{
+   padding-top: 15%;
+   width: 315px;
+   height: 120px;
+   font-size: 40px ;
+   font-weight: var(--semiBold);
+   margin-bottom: 20%;
+}
+
+.fourthPage p {
+   font-size: 18px;
+   font-weight: var(--regular);
+   width: 315px;
+   height: 96px;
+   opacity: 0.4;
+   color: var(--white);
+   line-height: 32px;
+   
+}
+
+.fourthPage a{
+   text-align: center;
+   color: var(--darkGray);
+   border: 1px solid var(--yellow);
+   background-color: var(--yellow);
+   font-size: 18px ;
+   font-weight: var(--regular);
+   border-radius: 15px;
+   width: 175px;
+   height: 50px;
+   padding: 9px 0px 9px 0px ;
+   margin-bottom: 20%;
+
+  
+}
+
+.fourthPage a:hover{
+   transition-delay: 200ms;
+   transition-property:color,background-color,box-shadow;
+   background-color: rgb(253, 253, 148);
+   color: rgb(36, 35, 35);
+   box-shadow: 0.1px 1px 10px 
+   gray;
+} 
+
+.fourthPage img{
+   max-width: 335px ;
+   max-height: 278px;
+   border-bottom:1px solid rgb(255, 255, 255,0.2);
+   padding-bottom: 60px;
+   
+ 
+}
+
+.fifthPage{
+   margin-top:10% ;
+   justify-content: center;
+   align-items: center;
+   margin-left: 12%;
+}
+
+.fifthPage h2{
+   font-weight:var(--semiBold) ;
+   font-size:24px ;
+   margin-bottom:10% ;
+}
+
+.fifthPage div  p{
+   font-weight: var(--semiBold);
+   font-size: 18;
+   width: auto;
+   margin-bottom: 5%;
+}
+
+.finalIcon{
+   display: flex;
+   align-items: center;
+   gap: 10px;
+   font-size: 18px;
+}
+
+
+.circle{
+   border: 2px solid var(--white);
+   border-radius: 50%;
+   height: 20px;
+   width:20px ;
+   position: relative;
+   bottom: 7px;
+   
+}
+.icon{
+   
+   position: relative;
+   bottom: 6.5px;
+   left: 3px;
+}
+
+
+
+
+
+
+
+
+}
